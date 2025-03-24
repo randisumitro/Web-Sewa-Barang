@@ -159,7 +159,7 @@ class FrontController extends Controller
         }
 
         $ppn = 0.11;
-        $insurance = 900000;
+        $insurance = 9000;
         $totalPpn = $details->product->price * $ppn;
         $duration = $details->duration;
         $subTotal = $details->product->price * $duration;
